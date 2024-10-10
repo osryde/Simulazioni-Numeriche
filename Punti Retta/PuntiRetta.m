@@ -31,7 +31,7 @@ for i = 1:N
 end
 
 m = min(n):max(n);
-nn = hist(n, m);
+nn = hist(n, m); % Hist non Histogram
 
 out(1, :) = nn./N;
 out(2, :) = m;
