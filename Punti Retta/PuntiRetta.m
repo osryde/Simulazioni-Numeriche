@@ -5,7 +5,7 @@ function out = puntiRetta(lambda, l, N, x)
 % l -> ampiezza finestra di osservazione
 % N -> Numero di prove
 % L_0 = l * x -> Larghezza dell'intervallo dei punti
-% out -> Matrice 2xn con prima riga le frequenze e sulla seconda i conteggi
+% out -> Matrice (2 x n) con prima riga le frequenze e sulla seconda i conteggi
 
 
 % Controllo sugli argomenti
