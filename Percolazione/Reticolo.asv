@@ -1,0 +1,12 @@
+p = 0.7;
+d = 50;
+R = rand(d) < p;
+
+% Somma le colonne
+sum(R);
+
+% Somma le colonne e poi la riga ottenuta
+sum(sum(R));
+
+% Calcolo la deviazione
+abs(sum(sum(R))) - d * d * p 
